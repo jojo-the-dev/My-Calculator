@@ -1,0 +1,62 @@
+html, body{
+    border: 1px dotted darkblue;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.calculator{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: aliceblue;
+    border: 1px dashed red;
+}
+
+table{
+    width: 25%;
+    height: 60%;
+    border-collapse: separate;
+    border: 2px solid black;
+    border-spacing: 5px;
+    padding: 10px;
+    background-color: rgb(133, 132, 132);
+    border-radius: 15px;
+}
+
+td{
+    padding: 0;
+}
+
+button{
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 1px solid #c0c0c0;
+    background-color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#display{
+    width: 98%;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+
+input::placeholder{
+    text-align: right;
+    padding-right: 5px;
+    font-family: 'digital-7', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@font-face {
+        font-family: 'digital-7', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        src: url("My-Calculator\assets\digital-7\digital-7(mono).ttf") format('truetype'); /* Specify the path to your custom font */
+    }

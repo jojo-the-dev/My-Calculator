@@ -1,6 +1,12 @@
 function appendToDisplay(value){
     //Get display area input element
     let display = document.getElementById('display');
+    
+    if (value === 'x') {
+        value = '*'; // Change 'x' to '*' for multiplication
+    } else if (value === '÷') {
+        value = '/'; // Change '÷' to '/' for division
+    }
 
     // Append the value to the display
     display.value += value;
